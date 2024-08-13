@@ -1,7 +1,7 @@
 1. Basic Networking Concepts
-OSI Model: Explain the 7 layers and their functions.
-TCP/IP Model: Describe how it relates to the OSI model.
-IP Addressing: Differentiate between IPv4 and IPv6, and explain subnetting.
+OSI Model: Explain the 7 layers and their functions. The Osi (open systems interconnections) model is a conceptual framework that standardizes the functions of a networking or telecommunication system into seven layers: physical data link network,trransport session, presentation and application. understanding this helps diagnose and troubleshoot networks.
+TCP/IP Model: Describe how it relates to the OSI model. The Trransmission control protocol/internet protocol model is more practical, four layer model used to describe how data is transmitted over a network. crucial for understanding how the internet works.
+IP Addressing: Differentiate between IPv4 and IPv6, and explain subnetting. IP addresses are unique identifiers for devices on a network. a subnet mask is used to determine which portion of ip address is thee network part and which is the host part. For example IP 192.168.1.1 with subnet mask 255.255.255.0 the first 3 octets 192.168.1 are network portion, the last octet 1 is the host portion.
 Common Protocols: HTTP/HTTPS, FTP, SSH, DNS, and their uses.
 2. Linux Fundamentals
 File System Navigation: Commands like ls, cd, pwd.
